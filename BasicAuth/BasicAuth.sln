@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicAuth", "BasicAuth\Basi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAuthBearerToken", "BasicAuthBearerToken\BasicAuthBearerToken.csproj", "{8DA6CE1C-A60F-472E-9AF4-3E80D51FC679}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthWebApi", "JwtAuthWebApi\JwtAuthWebApi.csproj", "{72FE3FBC-BA86-4BF0-88E8-6CBDB2E9D8C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8DA6CE1C-A60F-472E-9AF4-3E80D51FC679}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DA6CE1C-A60F-472E-9AF4-3E80D51FC679}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DA6CE1C-A60F-472E-9AF4-3E80D51FC679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72FE3FBC-BA86-4BF0-88E8-6CBDB2E9D8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FE3FBC-BA86-4BF0-88E8-6CBDB2E9D8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FE3FBC-BA86-4BF0-88E8-6CBDB2E9D8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FE3FBC-BA86-4BF0-88E8-6CBDB2E9D8C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
