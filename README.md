@@ -6,7 +6,7 @@
 5. Setup basic authentication in swagger in setup.cs file
 
 
-#Implementing JWT in ASP.NET Core 5.0 Web API
+# Implementing JWT in ASP.NET Core 5.0 Web API
 
 JSON Web Token (JWT) is an open standard used to share information between two parties. 
 The information of JWT is encoded as JSON containing claims or signatures.
