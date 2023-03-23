@@ -1,8 +1,10 @@
+using JwtAuthRole.Api.Services;
 using JwtAuthRole.Data.Context;
 using JwtAuthRole.Data.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -39,7 +41,7 @@ builder.Services.AddAuthentication(options =>
         };
     });
 
-
+builder.Services.TryAddTransient<IAuthService, AuthService>();
 
 
 builder.Services.AddControllers();
